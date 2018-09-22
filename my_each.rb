@@ -6,4 +6,4 @@ def my_each(array)
   end
 end
 
-my_each(array) {|x| puts x}
+my_each(array = [1, 2, 3, 4]) {|x| puts x}
